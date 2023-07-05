@@ -11,6 +11,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-family: 'Outfit', sans-serif;
 }
 
 .container {
@@ -20,30 +21,77 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border-radius: 10px;
 }
 
 .image {
-  width: 350px;
-  height: 300px;
+  width: 300px;
+  
 }
 
 .img {
   width: 100%;
   height: auto;
+  border-radius: 10px;
+}
+
+.equilibrium-box{
+  width: 300px;
 }
 
 h2 {
   color: hsl(0, 0%, 100%);
+  margin-top: 20px;
 }
 
 p {
   color: hsl(215, 51%, 70%);
+  margin-top: 20px;
+}
+
+.eth-days{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
 }
 
 .eth {
   color: hsl(178, 100%, 50%);
+  margin-left: 5px;
+}
+
+.days{
+    color: hsl(215, 51%, 70%);
+  margin-left: 5px;
+}
+
+.icon-eth, .icon-days{
+  display: flex;
+  align-items: center;
+}
+
+hr{
+    color: hsl(215, 32%, 27%);
 }
 
 .avatar {
-  width: 50px;
+  width: 20px;
+  height: 20px;
+ border-radius: 50%;
+ border: 1px solid #fff;
+}
+
+.avatar-div{
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+.creation{
+  color: hsl(215, 51%, 70%);
+  margin-left: 12px;
+}
+
+.name{
+  color: hsl(0, 0%, 100%);
 }
